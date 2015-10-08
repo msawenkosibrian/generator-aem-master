@@ -1,0 +1,30 @@
+{
+  "name": "generator-aem-master",
+  "version": "0.0.1",
+  "description": "yeoman generator for AEM. Current version is used only for one project without any configurations ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./generators/**/*.spec.js"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "Bohda Lytvynov <b.kvant@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "mkdir": "0.0.2",
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^0.20.3"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/npm/npm.git"
+  }
+}
